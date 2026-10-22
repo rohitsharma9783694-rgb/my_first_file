@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JEC</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 42px;
+      margin: 20px 0;
+      color: #1d3557;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      background: #1d3557;
+      padding: 15px 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      background: white;
+      padding: 25px 30px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #1d3557;
+      margin-bottom: 18px;
+      font-size: 28px;
+    }
+
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .course-grid li {
+      background: #eaf2ff;
+      border-left: 5px solid #457b9d;
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-weight: 600;
+      color: #213a52;
+    }
+
+    .info-box {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 16px;
+      line-height: 1.7;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>JEC</h1>
+
+    <nav class="nav">
+      <a href="#courses">Courses</a>
+      <a href="#fee-structure">Fee Structure</a>
+      <a href="#syllabus">Syllabus</a>
+    </nav>
+
+    <section id="courses">
+      <h2>Courses</h2>
+      <ul class="course-grid">
+        <li>Computer Science & Engineering</li>
+        <li>Electronics & Communication Engineering</li>
+        <li>Electrical Engineering</li>
+        <li>Mechanical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Information Technology</li>
+        <li>Artificial Intelligence & Machine Learning</li>
+        <li>Data Science</li>
+        <li>Robotics</li>
+        <li>Chemical Engineering</li>
+        <li>Biotechnology</li>
+        <li>Automobile Engineering</li>
+        <li>Industrial Engineering</li>
+        <li>Mining Engineering</li>
+        <li>Metallurgical Engineering</li>
+      </ul>
+    </section>
+
+    <section id="fee-structure">
+      <h2>Fee Structure</h2>
+      <div class="info-box">
+        Fee structure varies by course, category, and institution policies. Students are advised to contact the admission office for the latest fee details, scholarship information, and payment schedules.
+      </div>
+    </section>
+
+    <section id="syllabus">
+      <h2>Syllabus</h2>
+      <div class="info-box">
+        The syllabus includes foundational subjects, core engineering topics, laboratory work, seminars, projects, and electives depending on the chosen branch. Detailed semester-wise syllabus is available from the academic department or official college notice board.
+      </div>
+    </section>
+  </div>
+</body>
+</html>
